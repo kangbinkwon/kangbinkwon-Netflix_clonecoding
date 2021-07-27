@@ -9,7 +9,7 @@ $('.lang-selector').on('change', function () {
         $.ajax({
             type: 'GET',
             dataType: 'json',
-            url: '/spartacodingclub_netflix_clone_coding_complete/assets/lang/en.json',
+            url: '/kangbinkwon-Netflix_clonecoding/assets/lang/en.json',
             success: function (data) {
                 langData = data;
                 changeLanguage(langData);
@@ -58,7 +58,7 @@ $(function () {
         $.ajax({
             type: 'GET',
             dataType: 'json',
-            url: '/spartacodingclub_netflix_clone_coding_complete/assets/lang/en.json',
+            url: '/kangbinkwon-Netflix_clonecoding/assets/lang/en.json',
             success: function (data) {
                 langData = data;
                 changeLanguage(langData);
